@@ -1,0 +1,1060 @@
+[
+    {
+        "name": "allure-framework/allure-php-api",
+        "version": "1.1.8",
+        "version_normalized": "1.1.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/allure-framework/allure-php-api.git",
+            "reference": "5ae2deac1c7e1b992cfa572167370de45bdd346d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/allure-framework/allure-php-api/1.1.8/allure-framework-allure-php-api-1.1.8.zip",
+            "reference": "5ae2deac1c7e1b992cfa572167370de45bdd346d",
+            "shasum": ""
+        },
+        "require": {
+            "jms/serializer": "^0.16 || ^1.0",
+            "php": ">=5.4.0",
+            "ramsey/uuid": "^3.0",
+            "symfony/http-foundation": "^2.0 || ^3.0 || ^4.0 || ^5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0.0"
+        },
+        "time": "2020-03-13T10:47:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Yandex": [
+                    "src/",
+                    "test/"
+                ]
+            }
+        },
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Krutov",
+                "email": "vania-pooh@yandex-team.ru",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP API for Allure adapter",
+        "homepage": "http://allure.qatools.ru/",
+        "keywords": [
+            "allure",
+            "api",
+            "php",
+            "report"
+        ]
+    },
+    {
+        "name": "doctrine/annotations",
+        "version": "1.14.x-dev",
+        "version_normalized": "1.14.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/annotations.git",
+            "reference": "7f93627b05717863287e37357413155bb20e4d18"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/doctrine/annotations/1.14.x-dev/doctrine-annotations-1.14.x-dev.zip",
+            "reference": "7f93627b05717863287e37357413155bb20e4d18",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "^1 || ^2",
+            "ext-tokenizer": "*",
+            "php": "^7.1 || ^8.0",
+            "psr/cache": "^1 || ^2 || ^3"
+        },
+        "require-dev": {
+            "doctrine/cache": "^1.11 || ^2.0",
+            "doctrine/coding-standard": "^9 || ^12",
+            "phpstan/phpstan": "~1.4.10 || ^1.10.28",
+            "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+            "symfony/cache": "^4.4 || ^5.4 || ^6.4 || ^7",
+            "vimeo/psalm": "^4.30 || ^5.14"
+        },
+        "suggest": {
+            "php": "PHP 8.0 or higher comes with attributes, a native replacement for annotations"
+        },
+        "time": "2024-10-01T20:26:02+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Docblock Annotations Parser",
+        "homepage": "https://www.doctrine-project.org/projects/annotations.html",
+        "keywords": [
+            "annotations",
+            "docblock",
+            "parser"
+        ]
+    },
+    {
+        "name": "doctrine/deprecations",
+        "version": "1.1.x-dev",
+        "version_normalized": "1.1.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/deprecations.git",
+            "reference": "287ffdf65b884d55ee38d52eca6a07863879fa36"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/doctrine/deprecations/1.1.x-dev/doctrine-deprecations-1.1.x-dev.zip",
+            "reference": "287ffdf65b884d55ee38d52eca6a07863879fa36",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1 || ^8.0"
+        },
+        "require-dev": {
+            "doctrine/coding-standard": "^9 || ^12",
+            "phpstan/phpstan": "1.4.10 || 2.0.3",
+            "phpstan/phpstan-phpunit": "^1.0 || ^2",
+            "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5",
+            "psr/log": "^1 || ^2 || ^3"
+        },
+        "suggest": {
+            "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
+        },
+        "time": "2025-02-03T12:25:28+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Deprecations\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+        "homepage": "https://www.doctrine-project.org/"
+    },
+    {
+        "name": "doctrine/instantiator",
+        "version": "1.5.x-dev",
+        "version_normalized": "1.5.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/instantiator.git",
+            "reference": "12be2483e1f0e850b353e26869e4e6c038459501"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/doctrine/instantiator/1.5.x-dev/doctrine-instantiator-1.5.x-dev.zip",
+            "reference": "12be2483e1f0e850b353e26869e4e6c038459501",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1 || ^8.0"
+        },
+        "require-dev": {
+            "doctrine/coding-standard": "^9 || ^12",
+            "ext-pdo": "*",
+            "ext-phar": "*",
+            "phpbench/phpbench": "^0.16 || ^1",
+            "phpstan/phpstan": "^1.4",
+            "phpstan/phpstan-phpunit": "^1",
+            "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6",
+            "vimeo/psalm": "^4.30 || ^5.4"
+        },
+        "time": "2023-12-09T14:16:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marco Pivetta",
+                "email": "ocramius@gmail.com",
+                "homepage": "https://ocramius.github.io/"
+            }
+        ],
+        "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+        "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
+        "keywords": [
+            "constructor",
+            "instantiate"
+        ]
+    },
+    {
+        "name": "doctrine/lexer",
+        "version": "2.1.x-dev",
+        "version_normalized": "2.1.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/doctrine/lexer/2.1.x-dev/doctrine-lexer-2.1.x-dev.zip",
+            "reference": "861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/deprecations": "^1.0",
+            "php": "^7.1 || ^8.0"
+        },
+        "require-dev": {
+            "doctrine/coding-standard": "^9 || ^12",
+            "phpstan/phpstan": "^1.3",
+            "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6",
+            "psalm/plugin-phpunit": "^0.18.3",
+            "vimeo/psalm": "^4.11 || ^5.21"
+        },
+        "time": "2024-02-05T11:35:39+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Lexer\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "https://www.doctrine-project.org/projects/lexer.html",
+        "keywords": [
+            "annotations",
+            "docblock",
+            "lexer",
+            "parser",
+            "php"
+        ]
+    },
+    {
+        "name": "jms/metadata",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/metadata.git",
+            "reference": "b7d58bca30b6c5bcc9ad79e46cae10825245d015"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/jms/metadata/1.x-dev/jms-metadata-1.x-dev.zip",
+            "reference": "b7d58bca30b6c5bcc9ad79e46cae10825245d015",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "doctrine/cache": "~1.0",
+            "symfony/cache": "~3.1"
+        },
+        "time": "2020-05-31T06:14:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.5.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Metadata\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Johannes M. Schmitt",
+                "email": "schmittjoh@gmail.com"
+            },
+            {
+                "name": "Asmir Mustafic",
+                "email": "goetas@gmail.com"
+            }
+        ],
+        "description": "Class/method/property metadata management in PHP",
+        "keywords": [
+            "annotations",
+            "metadata",
+            "xml",
+            "yaml"
+        ]
+    },
+    {
+        "name": "jms/parser-lib",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/parser-lib.git",
+            "reference": "4f45952f9fa97d67adc5dd69e7d622fc89a7675d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/jms/parser-lib/dev-master/jms-parser-lib-dev-master.zip",
+            "reference": "4f45952f9fa97d67adc5dd69e7d622fc89a7675d",
+            "shasum": ""
+        },
+        "require": {
+            "phpoption/phpoption": ">=0.9,<2.0-dev"
+        },
+        "time": "2022-03-19T09:24:56+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "JMS\\": "src/"
+            }
+        },
+        "license": [
+            "Apache2"
+        ],
+        "description": "A library for easily creating recursive-descent parsers."
+    },
+    {
+        "name": "jms/serializer",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/serializer.git",
+            "reference": "706cad10a8ab5904a4d3e141e941ff187beb97fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/jms/serializer/1.x-dev/jms-serializer-1.x-dev.zip",
+            "reference": "706cad10a8ab5904a4d3e141e941ff187beb97fb",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/annotations": "^1.0",
+            "doctrine/instantiator": "^1.0.3",
+            "jms/metadata": "^1.3",
+            "jms/parser-lib": "1.*",
+            "php": "^5.5|^7.0",
+            "phpcollection/phpcollection": "~0.1",
+            "phpoption/phpoption": "^1.1"
+        },
+        "conflict": {
+            "twig/twig": "<1.12"
+        },
+        "require-dev": {
+            "doctrine/orm": "~2.1",
+            "doctrine/phpcr-odm": "^1.3|^2.0",
+            "ext-pdo_sqlite": "*",
+            "jackalope/jackalope-doctrine-dbal": "^1.1.5",
+            "phpunit/phpunit": "^4.8|^5.0",
+            "propel/propel1": "~1.7",
+            "psr/container": "^1.0",
+            "symfony/dependency-injection": "^2.7|^3.3|^4.0",
+            "symfony/expression-language": "^2.6|^3.0",
+            "symfony/filesystem": "^2.1",
+            "symfony/form": "~2.1|^3.0",
+            "symfony/translation": "^2.1|^3.0",
+            "symfony/validator": "^2.2|^3.0",
+            "symfony/yaml": "^2.1|^3.0",
+            "twig/twig": "~1.12|~2.0"
+        },
+        "suggest": {
+            "doctrine/cache": "Required if you like to use cache functionality.",
+            "doctrine/collections": "Required if you like to use doctrine collection types as ArrayCollection.",
+            "symfony/yaml": "Required if you'd like to serialize data to YAML format."
+        },
+        "time": "2023-01-06T20:54:01+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.14-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "JMS\\Serializer": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Johannes M. Schmitt",
+                "email": "schmittjoh@gmail.com"
+            },
+            {
+                "name": "Asmir Mustafic",
+                "email": "goetas@gmail.com"
+            }
+        ],
+        "description": "Library for (de-)serializing data of any complexity; supports XML, JSON, and YAML.",
+        "homepage": "http://jmsyst.com/libs/serializer",
+        "keywords": [
+            "deserialization",
+            "jaxb",
+            "json",
+            "serialization",
+            "xml"
+        ]
+    },
+    {
+        "name": "paragonie/random_compat",
+        "version": "v9.99.100",
+        "version_normalized": "9.99.100.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paragonie/random_compat.git",
+            "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/paragonie/random_compat/v9.99.100/paragonie-random_compat-v9.99.100.zip",
+            "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">= 7"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*|5.*",
+            "vimeo/psalm": "^1"
+        },
+        "suggest": {
+            "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+        },
+        "time": "2020-10-15T08:29:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Paragon Initiative Enterprises",
+                "email": "security@paragonie.com",
+                "homepage": "https://paragonie.com"
+            }
+        ],
+        "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+        "keywords": [
+            "csprng",
+            "polyfill",
+            "pseudorandom",
+            "random"
+        ]
+    },
+    {
+        "name": "phpcollection/phpcollection",
+        "version": "0.6.0",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/php-collection.git",
+            "reference": "56d18c8c2c0400f2838703246ac7de919a605763"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/phpcollection/phpcollection/0.6.0/phpcollection-phpcollection-0.6.0.zip",
+            "reference": "56d18c8c2c0400f2838703246ac7de919a605763",
+            "shasum": ""
+        },
+        "require": {
+            "phpoption/phpoption": "1.*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^9.5"
+        },
+        "time": "2022-03-21T13:02:41+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PhpCollection": "src/"
+            }
+        },
+        "license": [
+            "Apache2"
+        ],
+        "authors": [
+            {
+                "name": "Johannes M. Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "General-Purpose Collection Library for PHP",
+        "keywords": [
+            "collection",
+            "list",
+            "map",
+            "sequence",
+            "set"
+        ]
+    },
+    {
+        "name": "phpoption/phpoption",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/php-option.git",
+            "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/phpoption/phpoption/dev-master/phpoption-phpoption-dev-master.zip",
+            "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5 || ^8.0"
+        },
+        "require-dev": {
+            "bamarni/composer-bin-plugin": "^1.8.2",
+            "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+        },
+        "time": "2024-07-20T21:41:07+00:00",
+        "type": "library",
+        "extra": {
+            "bamarni-bin": {
+                "bin-links": true,
+                "forward-command": false
+            },
+            "branch-alias": {
+                "dev-master": "1.9-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "PhpOption\\": "src/PhpOption/"
+            }
+        },
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Johannes M. Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "https://github.com/schmittjoh"
+            },
+            {
+                "name": "Graham Campbell",
+                "email": "hello@gjcampbell.co.uk",
+                "homepage": "https://github.com/GrahamCampbell"
+            }
+        ],
+        "description": "Option Type for PHP",
+        "keywords": [
+            "language",
+            "option",
+            "php",
+            "type"
+        ]
+    },
+    {
+        "name": "psr/cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/cache.git",
+            "reference": "0a7c67d0d1c8167b342eb74339d6f961663826ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/psr/cache/dev-master/psr-cache-dev-master.zip",
+            "reference": "0a7c67d0d1c8167b342eb74339d6f961663826ce",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=8.0.0"
+        },
+        "suggest": {
+            "fig/cache-util": "Provides some useful PSR-6 utilities"
+        },
+        "time": "2021-02-24T03:25:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Cache\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "https://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for caching libraries",
+        "keywords": [
+            "cache",
+            "psr",
+            "psr-6"
+        ]
+    },
+    {
+        "name": "ramsey/uuid",
+        "version": "3.x-dev",
+        "version_normalized": "3.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ramsey/uuid.git",
+            "reference": "ad596ebbaf4c23e17231a16c65ba1a76a46a753e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/ramsey/uuid/3.x-dev/ramsey-uuid-3.x-dev.zip",
+            "reference": "ad596ebbaf4c23e17231a16c65ba1a76a46a753e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "paragonie/random_compat": "^1 | ^2 | ^9.99.99",
+            "php": "^5.4 | ^7.0 | ^8.0",
+            "symfony/polyfill-ctype": "^1.8"
+        },
+        "replace": {
+            "rhumsaa/uuid": "self.version"
+        },
+        "require-dev": {
+            "codeception/aspect-mock": "^1 | ^2",
+            "doctrine/annotations": "^1.2",
+            "goaop/framework": "1.0.0-alpha.2 | ^1 | >=2.1.0 <=2.3.2",
+            "mockery/mockery": "^0.9.11 | ^1",
+            "moontoast/math": "^1.1",
+            "nikic/php-parser": "<=4.5.0",
+            "paragonie/random-lib": "^2",
+            "php-mock/php-mock-phpunit": "^0.3 | ^1.1 | ^2.6",
+            "php-parallel-lint/php-parallel-lint": "^1.3",
+            "phpunit/phpunit": ">=4.8.36 <9.0.0 | >=9.3.0",
+            "squizlabs/php_codesniffer": "^3.5",
+            "yoast/phpunit-polyfills": "^1.0"
+        },
+        "suggest": {
+            "ext-ctype": "Provides support for PHP Ctype functions",
+            "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
+            "ext-openssl": "Provides the OpenSSL extension for use with the OpenSslGenerator",
+            "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
+            "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
+            "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
+            "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
+            "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+        },
+        "time": "2023-01-01T21:27:06+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/functions.php"
+            ],
+            "psr-4": {
+                "Ramsey\\Uuid\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ben Ramsey",
+                "email": "ben@benramsey.com",
+                "homepage": "https://benramsey.com"
+            },
+            {
+                "name": "Marijn Huizendveld",
+                "email": "marijn.huizendveld@gmail.com"
+            },
+            {
+                "name": "Thibaud Fabre",
+                "email": "thibaud@aztech.io"
+            }
+        ],
+        "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+        "homepage": "https://github.com/ramsey/uuid",
+        "keywords": [
+            "guid",
+            "identifier",
+            "uuid"
+        ]
+    },
+    {
+        "name": "symfony/deprecation-contracts",
+        "version": "dev-main",
+        "version_normalized": "dev-main",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/deprecation-contracts.git",
+            "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/symfony/deprecation-contracts/dev-main/symfony-deprecation-contracts-dev-main.zip",
+            "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=8.1"
+        },
+        "time": "2024-09-25T14:21:43+00:00",
+        "type": "library",
+        "extra": {
+            "thanks": {
+                "url": "https://github.com/symfony/contracts",
+                "name": "symfony/contracts"
+            },
+            "branch-alias": {
+                "dev-main": "3.6-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "function.php"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "A generic function and convention to trigger deprecation notices",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "5.4.x-dev",
+        "version_normalized": "5.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "reference": "3f38b8af283b830e1363acd79e5bc3412d055341"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/symfony/http-foundation/5.4.x-dev/symfony-http-foundation-5.4.x-dev.zip",
+            "reference": "3f38b8af283b830e1363acd79e5bc3412d055341",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/deprecation-contracts": "^2.1|^3",
+            "symfony/polyfill-mbstring": "~1.1",
+            "symfony/polyfill-php80": "^1.16"
+        },
+        "require-dev": {
+            "predis/predis": "^1.0|^2.0",
+            "symfony/cache": "^4.4|^5.0|^6.0",
+            "symfony/dependency-injection": "^5.4|^6.0",
+            "symfony/expression-language": "^4.4|^5.0|^6.0",
+            "symfony/http-kernel": "^5.4.12|^6.0.12|^6.1.4",
+            "symfony/mime": "^4.4|^5.0|^6.0",
+            "symfony/rate-limiter": "^5.2|^6.0"
+        },
+        "suggest": {
+            "symfony/mime": "To use the file extension guesser"
+        },
+        "time": "2024-11-13T18:58:02+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\HttpFoundation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Defines an object-oriented layer for the HTTP specification",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/symfony/polyfill-ctype/1.x-dev/symfony-polyfill-ctype-1.x-dev.zip",
+            "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2"
+        },
+        "provide": {
+            "ext-ctype": "*"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2024-09-09T11:45:10+00:00",
+        "type": "library",
+        "extra": {
+            "thanks": {
+                "url": "https://github.com/symfony/polyfill",
+                "name": "symfony/polyfill"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/symfony/polyfill-mbstring/1.x-dev/symfony-polyfill-mbstring-1.x-dev.zip",
+            "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "php": ">=7.2"
+        },
+        "provide": {
+            "ext-mbstring": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2024-12-23T08:48:59+00:00",
+        "type": "library",
+        "extra": {
+            "thanks": {
+                "url": "https://github.com/symfony/polyfill",
+                "name": "symfony/polyfill"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php80",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.huaweicloud.com/repository/php/symfony/polyfill-php80/1.x-dev/symfony-polyfill-php80-1.x-dev.zip",
+            "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2"
+        },
+        "time": "2024-09-09T11:45:10+00:00",
+        "type": "library",
+        "extra": {
+            "thanks": {
+                "url": "https://github.com/symfony/polyfill",
+                "name": "symfony/polyfill"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Php80\\": ""
+            },
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ion Bazan",
+                "email": "ion.bazan@gmail.com"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    }
+]
