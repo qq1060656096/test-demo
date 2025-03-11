@@ -205,6 +205,11 @@ tools3-cli -t jc_phpunit tests/Tools3Tests/Dinghuobao/Common/Modules/Infrastruct
 # -o 生成phpunit到指定的文件 TestSetListOriginBrandInfo.php 
 # 注意 -o 不会创建目录
 # -php php路径【如果你不一样请修改】
+# -uf 要测试的代码文件
+# -um 要测试的代码方法
+# -lt 模型类型 deepseek
+# -lk api key
+# 其他选项请看 tools3-cli -h
 tools3-cli -t jc_phpunit -php=/usr/local/Cellar/php@7.3/7.3.33_11/bin/php -lt deepseek -lurl=https://api.deepseek.com -lk=sk-05e8317ce08641c684108e5012c560ec -lm=deepseek-chat -uf=Dinghuobao/Common/Modules/Infrastructure/Helper/Helper.php -um=dateFormatCheck -o tests/Tools3Tests/Dinghuobao/Common/Modules/Infrastructure/Helper/HelperDateFormatCheckTest.php tests/Tools3Tests/Dinghuobao/Common/Modules/Infrastructure/Helper/date_helper.json
 ```
 
